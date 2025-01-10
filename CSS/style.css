@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+
+
+
+.primary-font-color{
+    color:#0E0E0E;
+}
+
+
+/* font size  */
+.primary-heading-font{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondary-heading-font{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* borderradius  */
+.border-radius-24{
+    border-radius: 24px;
+}
+
+.border-radius-16{
+    border-radius: 16px;
+}
+
+/* color  */
+.background-color-main {
+    background-color: #F1F1F3;
+    padding: 0 160px;
+}
+.color-primary{
+    background-color: #C6E4D6;
+}
+.color-secondary{
+    color: #5490F5;
+    opacity: 0.2;
+}
+.color-third{
+    color: #C6E4D6;
+}
+.color-fourth{
+    color: #F7EBCF;
+}
+
+
+/* button  */
+.btn{
+    padding: 17px 34px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius:8px;
+    border-radius: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary{
+    background-color: #006A50;
+}
+
+.btn-primary:hover{
+    background-color: #005A40;
+}
+
+.btn-secondary{
+    background-color: #5490F5;
+}
+
+.btn-secondary:hover{
+    background-color: #4480E5;
+}
+.btn-third{
+    background-color: #09A15C;
+}
+.btn-third:hover{
+    background-color: #08914C;
+}
+.btn-fourth{
+    background-color: #FFC239;
+}
+.btn-fourth:hover{
+    background-color: #FFB229;
+}
+
+
+/* banner section  */
+.banner-contents-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.5;
+}
+.banner-contents-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.banner-container{
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
