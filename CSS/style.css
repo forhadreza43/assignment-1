@@ -39,6 +39,7 @@
     background-color: #F1F1F3;
     padding: 0 160px;
 }
+
 .background-color-secondary {
     background-color: #ffffff;
 }
@@ -71,7 +72,7 @@
     cursor: pointer;
     border: none;
     outline: none;
-    transition: background-color 0.3s ;
+    transition: background-color 0.3s;
 }
 
 .btn-second {
@@ -204,51 +205,54 @@ section {
 
 /* News card Section  */
 
-.news-section-text{
+.news-section-text {
     margin-top: 24px;
     margin-bottom: 32px;
     opacity: 0.7;
 }
 
-.news-cards-containers{
+.news-cards-containers {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.news-card-container{
+
+.news-card-container {
     padding: 48px;
     display: flex;
     gap: 32px;
 }
 
-.news-card-contents{
+.news-card-contents {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.news-card-contents .btn{
+
+.news-card-contents .btn {
     padding: 13px 26px;
     margin-bottom: 8px;
 }
 
-.image{
+.image {
     border-radius: 24px;
 }
 
-.content-heading{
+.content-heading {
     font-size: 32px;
     font-weight: bold;
     opacity: 0.8;
     margin-bottom: 12px;
 }
 
-.publish-time{
+.publish-time {
     opacity: 0.7;
     letter-spacing: 0.5px;
     margin: 12px 0;
-    
+
 }
-.content{
+
+.content {
     opacity: 0.7;
     margin-bottom: 32px;
 }
@@ -256,7 +260,7 @@ section {
 
 
 /* Donation Section */
-.donate{
+.donate {
     padding: 0 100px;
     text-align: center;
     display: flex;
@@ -264,80 +268,89 @@ section {
     gap: 34px;
 }
 
-.donate-text{
+.donate-text {
     opacity: 0.7;
 }
-.amount-card-container{
+
+.amount-card-container {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.card{
+
+.card {
     padding: 40px;
     opacity: 0.8;
     border: 1px solid rgba(14, 14, 14, 0.15);
     cursor: pointer;
     transition: box-shadow 0.3s, background-color 0.3s, border 0.3s;
 }
-.card:hover{
+
+.card:hover {
     border: 1px solid rgba(255, 0, 0, 0.205);
     box-shadow: 0px 0px 16px rgba(255, 0, 0, 0.1);
     background-color: rgba(255, 0, 0, 0.205);
 }
-.input{
+
+.input {
     width: 70%;
     padding: 20px 40px;
     text-align: center;
     border: none;
     outline: none;
     border-radius: 8px;
-    transition: box-shadow 0.3s ;
+    transition: box-shadow 0.3s;
 }
 
-.input::placeholder{
+.input::placeholder {
     font-size: 20px;
     opacity: 0.3;
 }
+
 .input:hover,
-.input:focus{
+.input:focus {
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* Newsletter Section  */
 
-.newsletter{
+.newsletter {
     padding: 80px 265px;
     text-align: center;
 }
-.newsletter-text{
+
+.newsletter-text {
     opacity: 0.7;
     margin-top: 16px;
     margin-bottom: 24px;
 }
-.sub-text{
+
+.sub-text {
     opacity: 0.7;
     margin-top: 24px;
 }
-.newsletter-form{
+
+.newsletter-form {
     width: 100%;
-    position: relative; 
+    position: relative;
 }
 
-.newsletter-form input{
+.newsletter-form input {
     width: 100%;
     text-align: left;
 }
+
 .newsletter-form input::placeholder {
     font-size: 16px;
 }
 
-.newsletter-form .btn{
+.newsletter-form .btn {
     position: absolute;
     right: 0;
     top: 0;
     border-radius: 0 8px 8px 0;
 }
-.newsletter-form .btn:hover{
+
+.newsletter-form .btn:hover {
     background-color: red;
 }
-
