@@ -317,6 +317,8 @@ section {
 .newsletter {
     padding: 80px 265px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .newsletter-text {
