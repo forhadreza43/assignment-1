@@ -71,7 +71,7 @@
     cursor: pointer;
     border: none;
     outline: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ;
 }
 
 .btn-second {
@@ -252,4 +252,55 @@ section {
     opacity: 0.7;
     margin-bottom: 32px;
 }
+
+
+
+/* Donation Section */
+.donate{
+    padding: 0 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.donate-text{
+    opacity: 0.7;
+}
+.amount-card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.card{
+    padding: 40px;
+    opacity: 0.8;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    cursor: pointer;
+    transition: box-shadow 0.3s, background-color 0.3s, border 0.3s;
+}
+.card:hover{
+    border: 1px solid rgba(255, 0, 0, 0.205);
+    box-shadow: 0px 0px 16px rgba(255, 0, 0, 0.1);
+    background-color: rgba(255, 0, 0, 0.205);
+}
+.input{
+    width: 70%;
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ;
+}
+
+.input::placeholder{
+    font-size: 20px;
+    opacity: 0.3;
+}
+.input:hover,
+.input:focus{
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
 
