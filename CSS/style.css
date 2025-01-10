@@ -72,7 +72,11 @@
     cursor: pointer;
     border: none;
     outline: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
 }
 
 .btn-second {
@@ -143,6 +147,11 @@ section {
 /* vision section  */
 .vision-card {
     padding: 32px;
+    transition: background-color 0.3s;
+}
+
+.vision-card:hover{
+    background-color: rgba(255, 0, 0, 0.205);
 }
 
 .vission-cards {
@@ -186,7 +195,7 @@ section {
 .speach-text::after {
     content: url("../assets/quote-bg.png");
     position: absolute;
-    top: -26px;
+    top: -27px;
     left: 0;
 
 }
