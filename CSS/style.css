@@ -303,4 +303,41 @@ section {
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* Newsletter Section  */
+
+.newsletter{
+    padding: 80px 265px;
+    text-align: center;
+}
+.newsletter-text{
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.sub-text{
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.newsletter-form{
+    width: 100%;
+    position: relative; 
+}
+
+.newsletter-form input{
+    width: 100%;
+    text-align: left;
+}
+.newsletter-form input::placeholder {
+    font-size: 16px;
+}
+
+.newsletter-form .btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 8px 8px 0;
+}
+.newsletter-form .btn:hover{
+    background-color: red;
+}
 
