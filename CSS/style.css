@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,28 +9,28 @@
 
 
 
-.primary-font-color{
-    color:#0E0E0E;
+.primary-font-color {
+    color: #0E0E0E;
 }
 
 
 /* font size  */
-.primary-heading-font{
+.primary-heading {
     font-size: 40px;
     font-weight: bold;
 }
 
-.secondary-heading-font{
+.secondary-heading {
     font-size: 20px;
     font-weight: bold;
 }
 
 /* borderradius  */
-.border-radius-24{
+.border-radius-24 {
     border-radius: 24px;
 }
 
-.border-radius-16{
+.border-radius-16 {
     border-radius: 16px;
 }
 
@@ -39,28 +39,31 @@
     background-color: #F1F1F3;
     padding: 0 160px;
 }
-.color-primary{
+
+.color-primary {
     background-color: #C6E4D6;
 }
-.color-secondary{
-    color: #5490F5;
-    opacity: 0.2;
+
+.color-secondary {
+    background-color: #548ff520;
 }
-.color-third{
-    color: #C6E4D6;
+
+.color-third {
+    background-color: #C6E4D6;
 }
-.color-fourth{
-    color: #F7EBCF;
+
+.color-fourth {
+    background-color: #F7EBCF;
 }
 
 
 /* button  */
-.btn{
+.btn {
     padding: 17px 34px;
     color: white;
     font-size: 18px;
     font-weight: 600;
-    border-radius:8px;
+    border-radius: 8px;
     border-radius: none;
     cursor: pointer;
     border: none;
@@ -68,43 +71,57 @@
     transition: background-color 0.3s ease;
 }
 
-.btn-primary{
+.btn-second {
+    padding: 11px 20px;
+    font-size: 16px;
+}
+
+.btn-primary {
     background-color: #006A50;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #005A40;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: #5490F5;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background-color: #4480E5;
 }
-.btn-third{
+
+.btn-third {
     background-color: #09A15C;
 }
-.btn-third:hover{
+
+.btn-third:hover {
     background-color: #08914C;
 }
-.btn-fourth{
+
+.btn-fourth {
     background-color: #FFC239;
 }
-.btn-fourth:hover{
+
+.btn-fourth:hover {
     background-color: #FFB229;
 }
 
 
+section {
+    margin-bottom: 80px;
+}
+
 /* banner section  */
-.banner-contents-subtitle{
+.banner-contents-subtitle {
     font-size: 24px;
     font-weight: 500;
     color: #0E0E0E;
     opacity: 0.5;
 }
-.banner-contents-title{
+
+.banner-contents-title {
     font-size: 56px;
     font-weight: bold;
     color: #0E0E0E;
@@ -112,9 +129,73 @@
     margin-bottom: 24px;
 }
 
-.banner-container{
+.banner-container {
     padding: 80px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* vision section  */
+.vision-card {
+    padding: 32px;
+}
+
+.vission-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision-text {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-card-title {
+    opacity: 0.8;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.vision-card-text {
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.speach-container {
+    background-color: white;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+    padding: 48px 24px;
+}
+
+
+.speach-text {
+    opacity: 0.8;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.speach-text::after {
+    content: url("../assets/quote-bg.png");
+    position: absolute;
+    top: -26px;
+    left: 0;
+
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.designation {
+    opacity: 0.6;
+    line-height: 24px;
 }
