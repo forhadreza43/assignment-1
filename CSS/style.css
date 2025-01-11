@@ -75,7 +75,7 @@
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.05);
 }
 
@@ -116,6 +116,30 @@
     background-color: #FFB229;
 }
 
+/* nav bar  */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0 51px 0;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav .btn {
+    background-color: transparent;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+}
+
+.nav-heading {
+    font-size: 32px;
+}
 
 section {
     margin-bottom: 80px;
@@ -144,13 +168,24 @@ section {
     align-items: center;
 }
 
+/* pillar-section  */
+.pillars-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pillar-title {
+    margin-bottom: 32px;
+}
+
 /* vision section  */
 .vision-card {
     padding: 32px;
     transition: background-color 0.3s;
 }
 
-.vision-card:hover{
+.vision-card:hover {
     background-color: rgba(255, 0, 0, 0.205);
 }
 
@@ -328,6 +363,7 @@ section {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
 }
 
 .newsletter-text {
@@ -364,4 +400,27 @@ section {
 
 .newsletter-form .btn:hover {
     background-color: red;
+    transform: scale(1);
+}
+
+
+/* footer  */
+.blank {
+    height: 1px;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 50px 0 32px;
+    margin: 0 240px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 0 50px;
 }
